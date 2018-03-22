@@ -16,9 +16,10 @@ public class MyPrograms {
 	public static WebDriver driver=null;
 public static void main (String[] args) throws java.text.ParseException {
 	
-System.setProperty("webdriver.chrome.driver", "/PracticeProgramming/drivers/chromedriver.exe");
+System.setProperty("webdriver.chrome.driver", "‪drivers/chromedriver.exe");
 driver=new ChromeDriver();
 driver.get("http://demoqa.com/datepicker/");
+
 String date="12/January/2030";
 String[] dateArr=date.split("/");
 String day=dateArr[0];
